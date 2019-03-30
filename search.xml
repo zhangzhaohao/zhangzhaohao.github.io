@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>再次搭建hexo+github</title>
+      <link href="/2019/03/30/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BAhexo-github/"/>
+      <url>/2019/03/30/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BAhexo-github/</url>
+      
+        <content type="html"><![CDATA[<p>说来也是搞笑，我之前为了完善hexo的功能，去百度搜索各种个性化的教程。后来弄得多了出现了错误，就不知道哪里错了，只好放弃了，重新开始搭建，好在文章还是在的，不过是要重新更新next主题，和hexo。跟着教程弄了很多功能，在最后部署到github的时候出现了问题，提示Please make sure you have the correct access rights and the repository exists，还提示我账号密码错了。我之前不知道是不是账号密码错了，去百度搜索，妈的用了一上午和下午1个小时。最后看了下账号储存器里的，果然密码错了。。。。。重新改了密码，成功登入。！！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 搭建网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>长针眼后续</title>
       <link href="/2019/03/20/%E9%95%BF%E9%92%88%E7%9C%BC%E5%90%8E%E7%BB%AD/"/>
       <url>/2019/03/20/%E9%95%BF%E9%92%88%E7%9C%BC%E5%90%8E%E7%BB%AD/</url>
