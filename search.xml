@@ -4,11 +4,111 @@
   
     
     <entry>
+      <title>清明节</title>
+      <link href="/2019/04/05/%E6%B8%85%E6%98%8E%E8%8A%82/"/>
+      <url>/2019/04/05/%E6%B8%85%E6%98%8E%E8%8A%82/</url>
+      
+        <content type="html"><![CDATA[<p>2019年4月4日，清明节，这一年的清明节我在学校呆了一天为了给别人剪辑视频，我是真的不愿意剪辑视频费时费力还是公益劳动。姐姐回来了，回到家里，有种萧瑟的感受，没有以前的亲切了，怎么回事？我还买回来一盆碧玉很漂亮。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nexus9刷nethunter出现的问题</title>
+      <link href="/2019/04/05/nexus9%E5%88%B7nethunter%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/04/05/nexus9%E5%88%B7nethunter%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>怎么说i好呢，我刷好nethunter之后nexus9开机也出现了那个帅气的动画，但是里面的shell的kail打不开，于是我重启了，呵可以用了。有一个nethuntervnc的用来实现图形化界面的，我配置了一下，可以连接但是我不能移动光标，听从了群友的建议，换了一个vnc软件，成功连接，功能正常！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nethunuter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nexus9安装nethunter</title>
+      <link href="/2019/03/31/nexus9%E5%AE%89%E8%A3%85nethunter/"/>
+      <url>/2019/03/31/nexus9%E5%AE%89%E8%A3%85nethunter/</url>
+      
+        <content type="html"><![CDATA[<p>我买了一个nexus9 32g let版本的，和之前的16g版本做了个比较，之前的一定是修过的，usb连接电脑没有反应，安装nethunter的念头也就算了。现在花了300块买了这个32gb的，戴了套的橙色有9成新，算是捡漏了。</p><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>在<a href="https://build.nethunter.com/nightly/" target="_blank" rel="noopener">传送门</a>这里下载了相应的内核包和rom包，在twrp一起刷入。</p><p>###开机<br>开机的动画并没有铺满整块屏幕，不以为失败了开机之后，打开shell的kail发现会闪退，我慌了，重新开机之后正常运行。还好，没事。之后要root限权，我下载了nexus root tooliks。手机进入boot界面，连接电脑成功，刷入root过程中卡在了进入twrp的界面，过了10分钟左右终于好了，可吓坏我了。之后又重启了一遍，卡在了twrp界面，过了好久才正常进入，等待的时间很久，不过等待一下就可以了。现在已经可以正常玩kail了，虽然我也不怎么会相信之后会更厉害的！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nethunter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装nrthunter流程</title>
+      <link href="/2019/03/31/%E5%AE%89%E8%A3%85nrthunter%E8%BF%87%E7%A8%8B/"/>
+      <url>/2019/03/31/%E5%AE%89%E8%A3%85nrthunter%E8%BF%87%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>##0x00 前言<br>关于NetHunter黑手的安装教程，网上可以找到很多相关的文章，但是它们的问题是针对性太强，不适合普通机型安装。更有甚者，甚至拿这些百度随便一搜就能找到的教程去谋取暴利(某傻X眼的作风)，所以本着开源共享的精神，结合我这段时间的折腾经历，决定把这篇文章写出来，福利大众！</p><p>##0x01 背景<br>·Kali Linux NetHunter是一款由Offensive Security团队专为渗透测试人员打造的，基于安卓的渗透测试平台。通过Chroot(一种虚拟容器，类似于Docker)方式运行在你的安卓设备上和安卓共存。其中包含了一个Chroot的Kali Linux环境，一个定制的内核和一个用来展示界面并提供相关操作快捷方式的APP，还有一些第三方安卓端的渗透测试工具(比如cSploit,RF Analyzer,DriveDroid,Shodan和Router Keygen等)。<br>·通过使用Kali Linux NetHunter，我们可以进行诸如外接无线网卡进行WiFi渗透，模拟鼠标键盘进行HID BadUSB攻击，模拟CDROM直接利用手机绕过电脑开机密码，一键部署Mana钓鱼热点等功能。</p><p>##0x02 安装<br>关于NetHunter的安装方法，大致可以分为刷机安装和免刷机安装两种办法。</p><ol><li><p>刷机安装<br>##1.01 前期准备<br>需要设备: 安卓手机一部，一条数据线，一台电脑以及可靠的互联网连接<br>需要下载的内容:</p></li><li><p>你本机的ROM底包以及官方救砖线刷包(可选)</p></li><li>ADB和FASTBOOT命令行工具包 <a href="http://127.0.0.1:1001/status/204+IDM" target="_blank" rel="noopener">传送门</a></li><li>你本机的TWRP镜像 <a href="https://twrp.me/Devices/" target="_blank" rel="noopener">传送门</a></li><li>NetHunter的”黑手OS”包 <a href="https://build.nethunter.com/nightly/" target="_blank" rel="noopener">传送门</a></li><li>NetHunter的内核包 <a href="https://build.nethunter.com/nightly/" target="_blank" rel="noopener">传送门</a>(官方支持设备需要刷入，否则没法使用外接无线网卡，HID BadUSB攻击和MSF数据库等功能)</li><li>Magisk(功能强大的安卓Hook框架与root授权工具) <a href="https://github.com/topjohnwu/Magisk/releases" target="_blank" rel="noopener">传送门</a></li></ol><p>PS:这里的刷机包文件要根据你的手机CPU架构进行选择。64位ARM的CPU应该下载arm64专用的nethunter-generic-arm64-kalifs-full-rolling-xxx.zip,32位ARM的CPU应该下载armhf专用的nethunter-generic-armhf-kalifs-full-rolling-xxx.zip，某些采用x86/64 CPU的特殊型号的手机或平板电脑则应选择其专用的nethunter-generic-i386-kalifs-full-rolling-xxx.zip或nethunter-generic-amd64-kalifs-full-rolling-xxx.zip。这里一定要注意它们的区别，别下载错了，否则刷机时有可能会变砖！！！<br>对于有官方内核支持的设备还应下载一个内核刷机包(官方内核支持设备列表点这里),否则将无法使用外接USB无线网卡、BadUSB HID攻击和MSF数据库等功能！内核的选择要根据自己手机的机型代号和安卓ROM版本和安卓版本进行选择(机型代号可以在终端模拟器内输入<code>1getprop ro.product.name</code>查看)。下载的内核刷机包文件为kernel-nethunter-机型代号-安卓版本-日期.zip，根据自己的实际情况自行选择即可。</p><p>##1.02 解锁Bootloader(已解锁的可跳过)<br>首先要注意备份好数据，解锁Bootloader会清除手机内的所有数据！！！然后再进入手机设置&gt;关于手机&gt;连续点击5次左右版本号来开启开发者选项，然后返回设置&gt;找到开发者选项&gt;开启USB调试和OEM解锁。<br>接着重启手机至FASTBOOT模式并用数据线连接电脑，等待系统识别安装驱动。之后在FASTBOOT工具包目录内打开cmd窗口，并输入以下命令:<br>1<br>fastboot devices</p><p>列出已连接到电脑的安卓设备，如果有显示手机的序列号则证明连接成功，如果没有显示请检查驱动是否已安装正确以及数据线是否完好。确认没问题后可以输入以下命令进行解锁:<br>1<br>fastboot oem unlock</p><p>PS:小米手机需要去官网申请解锁码后才能进行解锁操作 传送门<br>1.03 刷入TWRP<br>将TWRP镜像复制到FASTBOOT工具包目录内，执行以下命令刷入TWRP:<br>1<br>fastboot flash recovery twrp*.img</p><p>然后重启至TWRP:<br>1<br>fastboot boot twrp*.img</p><p>##1.04 刷机<br>将NetHunter”黑手OS包”，内核包以及Magisk包复制进手机内置存储(如果是全新安装ROM的话需要把你要刷的ROM底包也复制进去)。进入到TWRP的主界面如图: 然后点击左上角的安装，选择要刷入的刷机包，然后右划确定即可(如果要重刷ROM底包的话需要先双清，点击右上角的清除右划确定即可)。过程如图:     之后重启手机，打开NetHunter主app等待初始化加载完成就ok了。<br>PS:在刷ROM底包之前需要双清，但是在刷NetHunter前后一定不要双清！一定不要双清！一定不要双清！重要的事情说三遍！！！NetHunter并非标准的安卓ROM包，所以刷机的时候不需要双清直接刷入即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nethunter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>再次搭建hexo+github</title>
       <link href="/2019/03/30/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BAhexo-github/"/>
       <url>/2019/03/30/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BAhexo-github/</url>
       
-        <content type="html"><![CDATA[<p>说来也是搞笑，我之前为了完善hexo的功能，去百度搜索各种个性化的教程。后来弄得多了出现了错误，就不知道哪里错了，只好放弃了，重新开始搭建，好在文章还是在的，不过是要重新更新next主题，和hexo。跟着教程弄了很多功能，在最后部署到github的时候出现了问题，提示Please make sure you have the correct access rights and the repository exists，还提示我账号密码错了。我之前不知道是不是账号密码错了，去百度搜索，妈的用了一上午和下午1个小时。最后看了下账号储存器里的，果然密码错了。。。。。重新改了密码，成功登入。！！</p>]]></content>
+        <content type="html"><![CDATA[<p>说来也是搞笑，我之前为了完善hexo的功能，去百度搜索各种个性化的教程。后来弄得多了出现了错误，就不知道哪里错了，只好放弃了，重新开始搭建，好在文章还是在的，不过是要重新更新next主题，和hexo。跟着教程弄了很多功能，在最后部署到github的时候出现了问题，提示Please make sure you have the correct access rights and the repository exists，还提示我账号密码错了。我之前不知道是不是账号密码错了，去百度搜索，妈的用了一上午和下午1个小时。最后看了下账号储存器里的，果然密码错了。。。。。重新改了密码，成功登入。！！INFO  Deploy done: git</p>]]></content>
       
       
       <categories>
@@ -93,6 +193,12 @@
       
         <content type="html"><![CDATA[<p>现在是2019/3/17晚上23.05，下午坐客车去横峰县再坐客车回学校，在青板我拿着妈妈给我的吃的，跑到一辆客车的前车门，我抬头看到了初中同学叫西瓜的那个人。<br>我楞了一下，车上的老板叫我上去，车上很挤，我没有开口说一句你好的话，在初中不本就和他不熟，没有打算说问候的话，后来王芷若上车了，人很多很挤，我和她很近，我开口叫了声她的名字，她惊讶了一句说张照豪，也就急忙稳住身子，和身旁的朋友说起了话，车子发动了，在王依依的家门前停了下来，那时我很紧张，不过上来的人不是她，有一些小小的失望，车子又一次发动了，有后来上来了一位初中的女同学我不知道她的名字，有后来杨晨和杨那个什，后面有一阵骚动。仔细一听，是喻才华的声音，他也在和他现在的朋友吹牛逼，他们都有了新的朋友和生活，我也有了自己的朋友和生活，和他们不一样了，从那个选择后我也就不可能再和他们有什么交集。我不敢说话，不想让他们认出我。现在能超过他们的办法就是自考，也就是只有这么唯一一种途径了，我现在放弃了，就真的什么都没有了。什么时候我没有动力了，就回一次家，和他们聊几句，就会知道我和他们的差距有多大了，也就想努力去超过她们。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
       
       
     </entry>
