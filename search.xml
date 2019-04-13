@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>ne4xus9 32g和16g的感受</title>
+      <link href="/2019/04/13/32g%E5%92%8C16g%E7%9A%84%E6%84%9F%E5%8F%97/"/>
+      <url>/2019/04/13/32g%E5%92%8C16g%E7%9A%84%E6%84%9F%E5%8F%97/</url>
+      
+        <content type="html"><![CDATA[<p>这是nexus9 16g版本的外观上上面也就这样子，230包邮还送了个小米2代手环，先说说问题，有一个扬声道是没有用的，相机和双击屏幕唤醒也是没有用的，肯定是修过的一个机子，屏幕倒是完好无损，看看漫画挺好的，但是安兔兔跑分12万，相比32g的相差3万跑分。对了充电特别慢，还连接不上电脑</p><p><img width="200" src="http://ppwjyatkq.bkt.clouddn.com/nexus916g1.jpeg"><br><img width="200" src="http://ppwjyatkq.bkt.clouddn.com/nexus916g1.jpeg"></p><p>这是32g版本的，300块还送了个保护套，橙色很好9.0新，充电快，运行起来也更流畅，后来我也用它安装nethunter，总是也就是这样子了。</p><p><img width="200" src="http://ppwjyatkq.bkt.clouddn.com/nesus932g.jpg"><br><img width="200" src="http://ppwjyatkq.bkt.clouddn.com/nexus931g.jpg"><br><img width="200" src="http://ppwjyatkq.bkt.clouddn.com/nexus932g2.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>清明节</title>
       <link href="/2019/04/05/%E6%B8%85%E6%98%8E%E8%8A%82/"/>
       <url>/2019/04/05/%E6%B8%85%E6%98%8E%E8%8A%82/</url>
@@ -233,8 +246,8 @@
     
     <entry>
       <title></title>
-      <link href="/2019/02/27/post-title/"/>
-      <url>/2019/02/27/post-title/</url>
+      <link href="/2019/02/27/kail%20linux%2064%E4%BD%8D%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/"/>
+      <url>/2019/02/27/kail%20linux%2064%E4%BD%8D%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/</url>
       
         <content type="html"><![CDATA[<hr><p>title: kail linux64位在虚拟机中安装失败<br>date: 2019-02-27 23:15:21</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags: "></a>tags: </h2><p>在vm安装kail Linux的时候遇到了安装失败的遭遇，安装包检查了没缺失文件，磁盘分配了30g还是没用，最后百度知道看到在创建新的虚拟机的时候系统要选择有64位字样的Linux版本，不然系统可能识别为32位的这样子就会安装失败了</p>]]></content>
       
